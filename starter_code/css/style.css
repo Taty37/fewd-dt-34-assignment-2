@@ -34,7 +34,10 @@ body{
 
 header{
   color: white;
-  font-size: 24px
+}
+
+header h1{
+  font: 800 24px 'Open Sans', sans-serif;
 }
 
 header #title{
@@ -46,11 +49,9 @@ header #title{
   background-size: cover;
 }
 
-#showcase h1{
+#showcase h2{
   color: white;
-  font-size: 24px;
-  font-weight: bold;
-  font:'Open-Sans', sans-serif;
+  font: 600 24px 'Open-Sans', sans-serif; 
   text-align: center;
 }
 
@@ -59,18 +60,27 @@ header #title{
   padding: 10px 30px;
   border-radius: 5px;
   color: #033048;
-  font: normal bold 14px "Open-Sans", Open-Sans, sans-serif;
+  font: 800 14px 'Open-Sans', sans-serif;
   margin-bottom: 200px;
   margin-top: 50px;
 }
 
 #Benefits{
   background-color: #f0efef;
+  margin-top: 0;
+  padding: 0;
+}
+
+#Benefits h2{
+  font: 600 20px 'Open Sans', sans-serif;
 }
 
 #Benefits p{
-  font-size: 13px/1.5;
-  padding-bottom: 10px;
+  font: 300 13px 'Open Sans', sans-serif;
+}
+
+#Benefits ul{
+  font: 300 13px 'Open Sans', sans-serif;
 }
 
 #Testimonial{
@@ -79,13 +89,16 @@ header #title{
   background-size: cover;
   color: white;
   text-align: center;
-  font-size: 18px;
-  font-style: italic;
   padding: 15px;
 }
 
 #Testimonial p{
-  font-weight: 300;
+  font: 300i 18px 'Open-Sans', sans-serif;
+  font-style: italic;
+}
+
+#Testimonial p span{
+  font: 600 18px 'Open-Sans', sans-serif;
 }
 
 #Join{
@@ -110,16 +123,19 @@ header #title{
   text-align: center;
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
+#end-page h2{
+  font: 800 24px 'Open Sans', sans-serif;
+}
+#end-page a{
+  padding: 12px;
+  margin: 10px;
+}
 
-/* Center the container */
 #container {
   width: 100%;
   margin: 0;
-
 }
+
 footer {
   background-color: #121212;
   color: #ffffff;
