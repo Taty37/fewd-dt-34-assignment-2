@@ -17,43 +17,98 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+
+body{
+  background-color: #f4f4f4;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
 }
 
-.clear {
-  clear: both;
+/*Global */
+.container{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
 }
 
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+header{
+  color: white;
+  font-size: 24px
 }
 
-.alignleft {
+header #title{
   float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+#Landing{
+  background: url('../images/header_bg.jpg') no-repeat 0 -100px;
+  background-size: cover;
 }
 
+#showcase h1{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font:'Open-Sans', sans-serif;
+  text-align: center;
+}
+
+.button-1{
+  background-color: #f9e42e;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #033048;
+  font: normal bold 14px "Open-Sans", Open-Sans, sans-serif;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
+#Benefits{
+  background-color: #f0efef;
+}
+
+#Benefits p{
+  font-size: 13px/1.5;
+  padding-bottom: 10px;
+}
+
+#Testimonial{
+  display: block;
+  background: url('../images/testimonial_bg.jpg') no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  padding: 15px;
+}
+
+#Testimonial p{
+  font-weight: 300;
+}
+
+#Join{
+  background-color: #f9e42e;
+}
+
+.button-2{
+  background-color: #033048;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#end-page{
+  background-color: #121212;
+  color: #f9e42e;
+  font-size: 24px; 
+  text-align: center;
+}
 
 /******************************************
 /* LAYOUT
@@ -62,17 +117,18 @@ body {
 /* Center the container */
 #container {
   width: 100%;
-  margin: auto;
-  height: 500px;
+  margin: 0;
 
 }
-
-header {
-
-}
-
 footer {
-
+  background-color: #121212;
+  color: #ffffff;
+  display: block;
+  padding: .025px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 /******************************************
